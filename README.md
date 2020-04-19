@@ -5,5 +5,5 @@ java.lang.IllegalStateException: zookeeper not connected
 ```
 检查zookeeper地址没问题，配置文件中将超时时间设置长一些
 ```
-java.lang.IllegalStateException: zookeeper not connected
+dubbo.registry.timeout=10000
 ```
